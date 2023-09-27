@@ -1,0 +1,32 @@
+{
+  "name": "ldtk.js",
+  "version": "0.0.1",
+  "description": "A LDtk importer for JS/TS",
+  "type": "module",
+  "module": "dist/index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc",
+    "test": "jest",
+    "pack": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsarfati/ldtk.js.git"
+  },
+  "keywords": [
+    "ldtk"
+  ],
+  "author": "dsarfati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsarfati/ldtk.js/issues"
+  },
+  "homepage": "https://github.com/dsarfati/ldtk.js#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
